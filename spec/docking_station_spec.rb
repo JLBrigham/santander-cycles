@@ -11,4 +11,6 @@ it 'releases working bikes' do
 end
 
 it { is_expected.to respond_to(:dock).with(1).argument }
+
+it { is_expected.to respond_to :bike }
 end
